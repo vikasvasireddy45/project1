@@ -1,0 +1,73 @@
+
+<!--
+  This portfolio template is released under CC0 (No Copyright).
+  You are free to use, modify, and share it without any restrictions.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background: #f9f9f9; color: #222; }
+    header { background: #1a1a1a; color: #fff; padding: 20px; text-align: center; }
+    nav a { color: #fff; margin: 0 10px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    section { padding: 40px 20px; }
+    .projects { display: flex; flex-wrap: wrap; gap: 20px; }
+    .project {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      width: 300px;
+    }
+    footer { background: #1a1a1a; color: #fff; text-align: center; padding: 20px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>Developer | Learner | Creator</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm a beginner developer who loves learning and building cool stuff with code.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Simple Portfolio</h3>
+        <p>A basic portfolio website made with HTML and CSS.</p>
+      </div>
+      <div class="project">
+        <h3>Python Mini App</h3>
+        <p>A small Python app to practice logic and problem-solving.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
+  </section>
+
+  <footer>
+    <p>No copyright © 2025. Use freely.</p>
+  </footer>
+
+</body>
+</html>
